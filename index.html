@@ -3,35 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farrapus Restaurante</title>
-
-  <link rel="stylesheet" href="style.css">
+  <title>Farrapus Restaurante Italiano</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color:#333;
+      background:#fff;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+      height: 90vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:#fff;
+      position:relative;
+    }
+
+    header::after {
+      content:'';
+      position:absolute;
+      width:100%;
+      height:100%;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .hero {
+      position:relative;
+      z-index:2;
+      max-width:700px;
+      padding:20px;
+    }
+
+    h1 {
+      font-family:'Playfair Display', serif;
+      font-size:3rem;
+    }
+
+    h2 {
+      font-size:2rem;
+      margin-bottom:20px;
+    }
+
+    p { margin:10px 0; }
+
+    .btn {
+      display:inline-block;
+      padding:12px 25px;
+      margin:10px;
+      background:#1f5f3a;
+      color:#fff;
+      text-decoration:none;
+      border-radius:30px;
+      transition:0.3s;
+    }
+
+    .btn:hover { background:#144d2c; }
+
+    section {
+      padding:60px 20px;
+      text-align:center;
+      opacity:0;
+      transform:translateY(40px);
+      transition:0.6s;
+    }
+
+    .cards {
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .card {
+      width:280px;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      background:#fff;
+    }
+
+    .card img {
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+
+    .card h3 {
+      padding:15px;
+    }
+
+    .cta {
+      background:#1f5f3a;
+      color:#fff;
+    }
+
+    footer {
+      background:#111;
+      color:#fff;
+      padding:30px;
+      text-align:center;
+    }
+
+    .whatsapp {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25d366;
+      color:#fff;
+      padding:15px;
+      border-radius:50%;
+      font-size:20px;
+      text-decoration:none;
+      box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    }
+
+    iframe {
+      width:100%;
+      height:300px;
+      border:none;
+      border-radius:10px;
+      margin-top:20px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header id="hero">
-  <div class="overlay"></div>
-
-  <div class="hero-content">
-    <img src="assets/logo-sem-fundo.png" class="logo">
-
-    <h1>Experiência Italiana Autêntica</h1>
-    <p>Massas artesanais, vinhos selecionados e ambiente sofisticado</p>
-
-    <div class="buttons">
-      <a href="#" class="btn">Reservar Mesa</a>
-      <a href="#" class="btn secondary">Ver Cardápio</a>
-    </div>
+<header>
+  <div class="hero">
+    <h1>A melhor experiência italiana de Cassilândia</h1>
+    <p>Massas artesanais, ambiente aconchegante e sabores inesquecíveis</p>
+    <a href="tel:+5567981122759" class="btn">📞 Ligar agora</a>
+    <a href="https://api.whatsapp.com/send/?phone=5567981122759&text=Ola!+eu+gostaria+de+reservar+uma+mesa.&type=phone_number&app_absent=0" class="btn">💬 WhatsApp</a>
   </div>
 </header>
 
-<section class="reveal">
-  <h2>Destaques</h2>
+<section>
+  <h2>⭐ 4.3 no Google</h2>
+  <p>Mais de 150 avaliações reais</p>
+  <p>“Lasanha espetacular e ambiente maravilhoso”</p>
+</section>
 
+<section>
+  <h2>Pratos em destaque</h2>
   <div class="cards">
+
     <div class="card">
       <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
       <h3>Lasanha Bolonhesa</h3>
@@ -39,26 +163,66 @@
 
     <div class="card">
       <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141">
-      <h3>4 Queijos</h3>
+      <h3>Lasanha 4 Queijos</h3>
     </div>
 
     <div class="card">
       <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e">
       <h3>Massas Artesanais</h3>
     </div>
+
   </div>
 </section>
 
-<section class="cta reveal">
-  <h2>Reserve agora</h2>
-  <a href="#" class="btn">WhatsApp</a>
+<section>
+  <h2>Sobre o restaurante</h2>
+  <p>O Farrapus Restaurante Italiano oferece uma experiência única em Cassilândia, com pratos preparados com cuidado, ambiente aconchegante e atendimento que conquista cada cliente.</p>
+</section>
+
+<section>
+  <h2>Diferenciais</h2>
+  <p>🍝 Massas artesanais</p>
+  <p>🍷 Carta de vinhos</p>
+  <p>🏡 Ambiente aconchegante</p>
+  <p>⭐ Alta avaliação dos clientes</p>
+</section>
+
+<section class="cta">
+  <h2>Reserve sua mesa agora</h2>
+  <a href="https://api.whatsapp.com/send/?phone=5567981122759&text=Ola!+eu+gostaria+de+reservar+uma+mesa.&type=phone_number&app_absent=0" class="btn">💬 WhatsApp</a>
+  <a href="tel:+5567981122759" class="btn">📞 Ligar</a>
+</section>
+
+<section>
+  <h2>Localização</h2>
+  <p>R. Teotônio Reis Costa, 417 - Centro, Cassilândia - MS</p>
+  <iframe src="https://maps.google.com/maps?q=Cassil%C3%A2ndia%20MS&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 </section>
 
 <footer>
-  <p>© Farrapus Restaurante</p>
+  <p>📞 (67) 98112-2759</p>
+  <p>🕒 Aberto até 23:30</p>
+  <p>© Farrapus Restaurante Italiano</p>
 </footer>
 
-<script src="script.js"></script>
+<a href="https://wa.me/5567981122759" class="whatsapp">💬</a>
+
+<script>
+  const sections = document.querySelectorAll('section');
+
+  window.addEventListener('scroll', () => {
+    const trigger = window.innerHeight * 0.8;
+
+    sections.forEach(sec => {
+      const top = sec.getBoundingClientRect().top;
+
+      if (top < trigger) {
+        sec.style.opacity = 1;
+        sec.style.transform = 'translateY(0)';
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
