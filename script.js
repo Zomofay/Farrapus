@@ -14,7 +14,7 @@ const cardapio = [
     descricao: "Pão italiano grelhado com tomate fresco, alho, azeite e manjericão.",
     preco: 28.00,
     categoria: "entradas",
-    imagem: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -23,7 +23,7 @@ const cardapio = [
     descricao: "Burrata cremosa com presunto cru italiano, rúcula e redução de balsâmico.",
     preco: 56.00,
     categoria: "entradas",
-    imagem: "https://images.unsplash.com/photo-1506280754576-f6fa8a873550?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1506280754576-f6fa8a873550?auto=format&fit=crop&w=600&q=80",
     badge: "destaque"
   },
   {
@@ -32,7 +32,7 @@ const cardapio = [
     descricao: "Fatias finas de filé mignon com alcaparras, parmesão e azeite trufado.",
     preco: 62.00,
     categoria: "entradas",
-    imagem: "https://images.unsplash.com/photo-1535400255456-984b6a9d11ef?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1623961988350-66b064cb2977?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
 
@@ -43,7 +43,7 @@ const cardapio = [
     descricao: "Lasanha artesanal com ragu de carne, molho béchamel e parmesão gratinado.",
     preco: 68.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80",
     badge: "destaque"
   },
   {
@@ -52,7 +52,7 @@ const cardapio = [
     descricao: "Massa artesanal com blend de mozzarella, gorgonzola, parmesão e ricota.",
     preco: 65.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -61,7 +61,7 @@ const cardapio = [
     descricao: "Massa fresca com cogumelos porcini, creme de leite e raspas de limão-siciliano.",
     preco: 72.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -70,7 +70,7 @@ const cardapio = [
     descricao: "Receita clássica romana com guanciale, ovo caipira, pecorino e pimenta preta.",
     preco: 69.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80",
     badge: "destaque"
   },
   {
@@ -79,7 +79,7 @@ const cardapio = [
     descricao: "Massa fresca recheada com ricota e espinafre, ao molho de manteiga e sálvia.",
     preco: 74.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -88,7 +88,7 @@ const cardapio = [
     descricao: "Molho de tomate apimentado com alho, pimenta calabresa e manjericão fresco.",
     preco: 52.00,
     categoria: "massas",
-    imagem: "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1598866594230-a7c12756260f?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
 
@@ -99,7 +99,7 @@ const cardapio = [
     descricao: "Medalhão de filé mignon ao molho de vinho tinto e ervas finas, com risotto.",
     preco: 98.00,
     categoria: "carnes",
-    imagem: "https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1546039907-7fa05f864c02?auto=format&fit=crop&w=600&q=80",
     badge: "destaque"
   },
   {
@@ -108,7 +108,7 @@ const cardapio = [
     descricao: "Peito de frango empanado com molho de tomate e parmesão gratinado.",
     preco: 62.00,
     categoria: "carnes",
-    imagem: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -117,7 +117,7 @@ const cardapio = [
     descricao: "Escalope de vitela com prosciutto e sálvia, ao molho de manteiga e vinho branco.",
     preco: 86.00,
     categoria: "carnes",
-    imagem: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
 
@@ -128,16 +128,16 @@ const cardapio = [
     descricao: "Seleção especial do sommelier, garrafa 750ml.",
     preco: 89.00,
     categoria: "bebidas",
-    imagem: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
     id: 14,
-    nome: "Água com Gás Italiana",
-    descricao: "San Pellegrino 500ml.",
+    nome: "Água com Gás",
+    descricao: "Agua com gás 500ml.",
     preco: 14.00,
     categoria: "bebidas",
-    imagem: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -146,7 +146,7 @@ const cardapio = [
     descricao: "Laranja, limão ou maracujá, feito na hora.",
     preco: 18.00,
     categoria: "bebidas",
-    imagem: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -155,7 +155,7 @@ const cardapio = [
     descricao: "Coca-Cola, Guaraná Antarctica ou Água Tônica — lata 350ml.",
     preco: 9.00,
     categoria: "bebidas",
-    imagem: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
 
@@ -166,7 +166,7 @@ const cardapio = [
     descricao: "Receita clássica com biscoito savoiardi, mascarpone e espresso.",
     preco: 32.00,
     categoria: "sobremesas",
-    imagem: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80",
     badge: "destaque"
   },
   {
@@ -175,7 +175,7 @@ const cardapio = [
     descricao: "Creme delicado com calda de frutas vermelhas.",
     preco: 28.00,
     categoria: "sobremesas",
-    imagem: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80",
     badge: null
   },
   {
@@ -184,7 +184,7 @@ const cardapio = [
     descricao: "Escolha entre baunilha, pistache, chocolate ou frutas vermelhas.",
     preco: 24.00,
     categoria: "sobremesas",
-    imagem: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80",
     badge: null
   }
 ];
@@ -213,7 +213,7 @@ function renderCardapio(cat) {
 
     card.innerHTML = `
       <div class="prato-img-wrap">
-        <img src="${prato.imagem}" alt="${prato.nome}" loading="lazy">
+        <img src="${prato.imagem}" alt="${prato.nome}" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a5c38/ffffff?text=${encodeURIComponent(prato.nome)}'">
         ${prato.badge ? `<span class="prato-badge ${prato.badge}">${prato.badge === "destaque" ? "⭐ Destaque" : prato.badge}</span>` : ""}
       </div>
       <div class="prato-info">
